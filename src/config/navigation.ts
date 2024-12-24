@@ -7,7 +7,8 @@ import {
   PenTool,
   Menu,
   GraduationCap,
-  User
+  User,
+  Sun // Add Sun icon for solar system
 } from 'lucide-react';
 import { NavigationItem } from '../types/navigation';
 
@@ -41,6 +42,11 @@ export const navigationItems: NavigationItem[] = [
         label: 'Zaman Planlayıcı',
         path: '/zaman-planlayici',
         icon: Clock
+      },
+      {
+        label: 'Güneş Sistemi',
+        path: '/gunes-sistemi',
+        icon: Sun
       }
     ]
   },
@@ -102,3 +108,13 @@ export const navigationItems: NavigationItem[] = [
     ]
   }
 ];
+
+
+
+
+
+
+
+
+
+
